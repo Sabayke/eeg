@@ -42,7 +42,7 @@ $bdd = new PDO('mysql:host=127.0.0.1;dbname=eggdata', 'root', '');
 					
 					<li><a class="active" href="analyses.html">Analyses</a></li>
 					<li><a> <?php echo $_GET['login'];?></a></li>
-					
+					<li><a class="active" href="patient.html"> patients</a></li>					
 				</ul>
 			</div>
 		</div>
